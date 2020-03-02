@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Clock from './Clock';
+
 
 
 function App(props) {
@@ -9,7 +11,9 @@ function App(props) {
       <p>hi {props.name}</p>
       
       
+      < Clock />
     </div>
+    
   );
 }
 
