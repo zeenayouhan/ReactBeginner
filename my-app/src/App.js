@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock';
+import Click from './Click';
 
 
 
@@ -12,6 +13,7 @@ function App(props) {
       
       
       < Clock />
+      < Click />
     </div>
     
   );
