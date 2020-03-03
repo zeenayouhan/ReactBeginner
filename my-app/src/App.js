@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock';
 import Click from './Click';
+import ColoredBlock from './ColoredBlock';
 
 
 
@@ -13,6 +14,7 @@ function App(props) {
       
       
       < Clock />
+      < ColoredBlock/>
       < Click />
     </div>
     
